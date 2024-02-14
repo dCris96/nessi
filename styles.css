@@ -7,9 +7,8 @@
 body{
     background-image: linear-gradient(to right top, #845ec2, #e65faa, #ff8080, #ffbb61, #f9f871);
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .papel{
@@ -18,6 +17,8 @@ body{
     position: relative;
     border-radius: 30px;
     padding: 100px 0;
+    margin: auto;
+    margin-top: 150px;
 }
 
 .top{
